@@ -1,7 +1,7 @@
 @echo off
 
 REM 清理系统垃圾
-REM 适用于wn8、win10系统
+REM 适用于win8、win10系统
 
 del /S /Q "%appdata%\Microsoft\Windows\Recent\*"
 del /S /Q %windir%\temp\*
